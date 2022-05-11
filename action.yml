@@ -32,5 +32,5 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - run: ${{ github.action_path }}/../create-iac-artifact.sh ${{ inputs.region }} ${{ inputs.access-key }} ${{ inputs.secret-key }} ${{ inputs.destination-account }} ${{ inputs.role-name }} ${{ inputs.version }} ${{ inputs.service-name }} ${{ inputs.iac }} ${{ inputs.butcket-name }}
+    - run: ${{ github.action_path }}/create-iac-artifact.sh ${{ inputs.region }} ${{ inputs.access-key }} ${{ inputs.secret-key }} ${{ inputs.destination-account }} ${{ inputs.role-name }} ${{ inputs.version }} ${{ inputs.service-name }} ${{ inputs.iac }} ${{ inputs.butcket-name }}
       shell: bash
