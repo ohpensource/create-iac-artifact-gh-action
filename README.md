@@ -40,7 +40,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: ohpensource/create-iac-artifact-gh-action@0.0.0.1
+      - uses: ohpensource/create-iac-artifact-gh-action@0.0.0.2
         name: Upload Terraform artifact
         with:
           region: $REGION
