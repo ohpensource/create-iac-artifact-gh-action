@@ -26,7 +26,7 @@ inputs:
     description: "iac (terraform or cloudformation)"
     required: true
     default: 'terraform'
-  butcket-name:
+  bucket-name:
     description: "bucket name"
     required: true
 runs:
@@ -43,4 +43,4 @@ runs:
           "${{ inputs.version }}" \
           "${{ inputs.service-name }}" \
           "${{ inputs.iac }}" \
-          "${{ inputs.butcket-name }}"
+          "${{ inputs.bucket-name }}"
