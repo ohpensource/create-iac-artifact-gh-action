@@ -26,7 +26,7 @@ This action will zip and upload to S3 the IAC folder that is specified. The (req
 - _version_: Unique version of the artifact being uploaded (1.2.3, 1.5.8.1, feature/branch, ...)
 - _service-name_: Name of the unique service.
 - _iac_: folder where the IAC is located.
-- _butcket-name_: Name of the bucket to upload the artifact
+- _bucket-name_: Name of the bucket to upload the artifact
 
 Here is an example:
 
@@ -51,5 +51,5 @@ jobs:
           version: $GITHUB_HEAD_REF
           service-name: $SERVICE_NAME
           iac: $IAC
-          butcket-name: $ARTIFACTS_BUCKET_NAME
+          bucket-name: $ARTIFACTS_BUCKET_NAME
 ```
