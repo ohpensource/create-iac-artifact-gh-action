@@ -1,3 +1,9 @@
+# :confetti_ball: 1.0.0.0 (2022-10-03T07:18:25.901Z)
+- - -
+## :boom: BREAKING CHANGES
+* CLIC-8033 - fixed typo (#3)
+- - -
+- - -
 # :confetti_ball: 0.0.3.0 (2022-09-30T20:23:26.867Z)
 - - -
 ## :bug: Fixes
